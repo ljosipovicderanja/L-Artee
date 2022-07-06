@@ -1,0 +1,30 @@
+{
+  "name": "l-arte",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.1.1",
+    "@fortawesome/free-solid-svg-icons": "^6.1.1",
+    "@fortawesome/vue-fontawesome": "^2.0.6",
+    "bootstrap-vue": "^2.22.0",
+    "core-js": "^3.6.5",
+    "firebase": "^8.2.1",
+    "maplibre-gl": "^2.1.9",
+    "v-calendar": "^2.4.1",
+    "vue": "^2.6.11",
+    "vue-croppa": "^1.3.8",
+    "vue-router": "^3.2.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-router": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "sass": "^1.26.5",
+    "sass-loader": "^8.0.2",
+    "vue-template-compiler": "^2.6.11"
+  }
+}
