@@ -13,6 +13,9 @@ Aplikacija koja služi za pregled muzeja i rezervacija istih. Nudi mogućnost pr
 ### Javni link na aplikaciju 
 Web: [L'Arte](https://l-artee-ljosipovicderanja.vercel.app/)
 
+### Link na stari repozitorij
+- [L-Arte](https://github.com/ljosipovicderanja/L-Arte.git)
+
 ### Ostale informacije potrebne za uporabu aplikacije
 - 
 
