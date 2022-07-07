@@ -11,7 +11,7 @@ Aplikacija koja služi za pregled muzeja i rezervacija istih. Nudi mogućnost pr
 **Figma:** (https://www.figma.com/proto/skcD2byuKHGHJZf0xHqfSH/L%60Arte?page-id=0%3A1&node-id=4%3A396&viewport=241%2C48%2C0.08&scaling=min-zoom&starting-point-node-id=4%3A396)
 
 ### Javni link na aplikaciju 
-Web: - dodat će se kasnije
+Web: - (https://l-artee-ljosipovicderanja.vercel.app/)
 
 ### Ostale informacije potrebne za uporabu aplikacije
 - dodat će se kasnije
