@@ -1,150 +1,154 @@
 <template>
-  <body>
-    <div class="boja">
-      <br /><br /><br />
-      <div class="naslov">MUZEJ VAN GOGH</div>
-      <br /><br />
-      <div class="prva-slika">
-        <div class="za-balu">
-          <div class="bala1"></div>
-          <div class="bala"></div>
-          <div class="bala3"></div>
-        </div>
-        <p>
-          Van Goghov muzej u Amsterdamu čuva najveću zbirku umjetničkih djela
-          Vincenta van Gogha (1853.-1890.) na svijetu. Stalna zbirka uključuje
-          preko 200 slika Vincenta van Gogha, 500 crteža i više od 750 pisama.
-          Muzej također predstavlja izložbe o raznim temama iz povijesti
-          umjetnosti 19. stoljeća.
-        </p>
-        <div class="za-balu-druga">
-          <div class="bala1-druga"></div>
-          <div class="bala-druga"></div>
-          <div class="bala3-druga"></div>
-        </div>
-        <img id="prva" src="zaslike/vangogh/vangogh2.jpg" style="width: 50%" />
-      </div>
-      <br /><br />
-      <div class="druga-slika">
-        <img id="druga" src="zaslike/vangogh/vangogh3.jpg" />
-        <br /><br />
+  <div class="boja">
+    <br /><br /><br />
+    <div class="naslov">MUZEJ VAN GOGH</div>
+    <br /><br />
 
-        <!--slajder-->
-
-        <div class="for-carousel">
-          <br />
-          <br />
-          <div class="carousel">
-            <ul class="slides">
-              <input type="radio" name="radio-buttons" id="img-1" checked />
-              <li class="slide-container">
-                <div class="slide-image">
-                  <div class="zalouvreslike">
-                    <img id="drugacija1" src="zaslike/vangogh/vangogh4.jpg" />
-                  </div>
-                </div>
-                <div class="carousel-controls">
-                  <label for="img-3" class="prev-slide">
-                    <span>&lsaquo;</span>
-                  </label>
-                  <label for="img-2" class="next-slide">
-                    <span>&rsaquo;</span>
-                  </label>
-                </div>
-              </li>
-              <input type="radio" name="radio-buttons" id="img-2" />
-              <li class="slide-container">
-                <div class="slide-image">
-                  <div class="zalouvreslike">
-                    <img src="zaslike/vangogh/vangogh5.jpg" />
-                  </div>
-                </div>
-                <div class="carousel-controls">
-                  <label for="img-1" class="prev-slide">
-                    <span>&lsaquo;</span>
-                  </label>
-                  <label for="img-3" class="next-slide">
-                    <span>&rsaquo;</span>
-                  </label>
-                </div>
-              </li>
-              <input type="radio" name="radio-buttons" id="img-3" />
-              <li class="slide-container">
-                <div class="slide-image">
-                  <div class="zalouvreslike">
-                    <img src="zaslike/vangogh/vangogh6.jpg" />
-                  </div>
-                </div>
-                <div class="carousel-controls">
-                  <label for="img-2" class="prev-slide">
-                    <span>&lsaquo;</span>
-                  </label>
-                  <label for="img-4" class="next-slide">
-                    <span>&rsaquo;</span>
-                  </label>
-                </div>
-              </li>
-              <input type="radio" name="radio-buttons" id="img-4" />
-              <li class="slide-container">
-                <div class="slide-image">
-                  <div class="zalouvreslike">
-                    <img src="zaslike/vangogh/vangogh7.jpg" />
-                  </div>
-                </div>
-                <div class="carousel-controls">
-                  <label for="img-3" class="prev-slide">
-                    <span>&lsaquo;</span>
-                  </label>
-                  <label for="img-5" class="next-slide">
-                    <span>&rsaquo;</span>
-                  </label>
-                </div>
-              </li>
-              <input type="radio" name="radio-buttons" id="img-5" />
-              <li class="slide-container">
-                <div class="slide-image">
-                  <div class="zalouvreslike">
-                    <img id="drugacija" src="zaslike/vangogh/vangogh8.jpg" />
-                  </div>
-                </div>
-                <div class="carousel-controls">
-                  <label for="img-4" class="prev-slide">
-                    <span>&lsaquo;</span>
-                  </label>
-                  <label for="img-1" class="next-slide">
-                    <span>&rsaquo;</span>
-                  </label>
-                </div>
-              </li>
-              <div class="carousel-dots">
-                <label for="img-1" class="carousel-dot" id="img-dot-1"></label>
-                <label for="img-2" class="carousel-dot" id="img-dot-2"></label>
-                <label for="img-3" class="carousel-dot" id="img-dot-3"></label>
-                <label for="img-4" class="carousel-dot" id="img-dot-4"></label>
-                <label for="img-5" class="carousel-dot" id="img-dot-5"></label>
-              </div>
-            </ul>
-          </div>
-          <br /><br />
-        </div>
-        <br />
-      </div>
+    <div class="za-balu">
+      <div class="bala1"></div>
+      <div class="bala"></div>
+      <div class="bala3"></div>
     </div>
-  </body>
+
+    <p class="p1">
+      Van Goghov muzej u Amsterdamu čuva najveću zbirku umjetničkih djela
+      Vincenta van Gogha (1853.-1890.) na svijetu. Stalna zbirka uključuje preko
+      200 slika Vincenta van Gogha, 500 crteža i više od 750 pisama. Muzej
+      također predstavlja izložbe o raznim temama iz povijesti umjetnosti 19.
+      stoljeća.
+    </p>
+
+    <div class="za-balu-druga">
+      <div class="bala1-druga"></div>
+      <div class="bala-druga"></div>
+      <div class="bala3-druga"></div>
+    </div>
+    <img
+      id="prva"
+      src="zaslike/vangogh/vangogh2.jpg"
+      style="width: 50%; float: right"
+    />
+
+    <br /><br />
+
+    <div class="druga-slika">
+      <img id="druga" style="float: left" src="zaslike/vangogh/vangogh3.jpg" />
+      <!-- 
+      <p class="p2">"What is done in love, is done well." - Vincent Van Gogh</p>
+    --></div>
+    <br /><br />
+
+    <!--slajder-->
+    <div class="for-carousel">
+      <br />
+      <br />
+      <div class="carousel">
+        <ul class="slides">
+          <input type="radio" name="radio-buttons" id="img-1" checked />
+          <li class="slide-container">
+            <div class="slide-image">
+              <div class="zalouvreslike">
+                <img id="drugacija1" src="zaslike/vangogh/vangogh4.jpg" />
+              </div>
+            </div>
+            <div class="carousel-controls">
+              <label for="img-3" class="prev-slide">
+                <span>&lsaquo;</span>
+              </label>
+              <label for="img-2" class="next-slide">
+                <span>&rsaquo;</span>
+              </label>
+            </div>
+          </li>
+          <input type="radio" name="radio-buttons" id="img-2" />
+          <li class="slide-container">
+            <div class="slide-image">
+              <div class="zalouvreslike">
+                <img src="zaslike/vangogh/vangogh5.jpg" />
+              </div>
+            </div>
+            <div class="carousel-controls">
+              <label for="img-1" class="prev-slide">
+                <span>&lsaquo;</span>
+              </label>
+              <label for="img-3" class="next-slide">
+                <span>&rsaquo;</span>
+              </label>
+            </div>
+          </li>
+          <input type="radio" name="radio-buttons" id="img-3" />
+          <li class="slide-container">
+            <div class="slide-image">
+              <div class="zalouvreslike">
+                <img src="zaslike/vangogh/vangogh6.jpg" />
+              </div>
+            </div>
+            <div class="carousel-controls">
+              <label for="img-2" class="prev-slide">
+                <span>&lsaquo;</span>
+              </label>
+              <label for="img-4" class="next-slide">
+                <span>&rsaquo;</span>
+              </label>
+            </div>
+          </li>
+          <input type="radio" name="radio-buttons" id="img-4" />
+          <li class="slide-container">
+            <div class="slide-image">
+              <div class="zalouvreslike">
+                <img src="zaslike/vangogh/vangogh7.jpg" />
+              </div>
+            </div>
+            <div class="carousel-controls">
+              <label for="img-3" class="prev-slide">
+                <span>&lsaquo;</span>
+              </label>
+              <label for="img-5" class="next-slide">
+                <span>&rsaquo;</span>
+              </label>
+            </div>
+          </li>
+          <input type="radio" name="radio-buttons" id="img-5" />
+          <li class="slide-container">
+            <div class="slide-image">
+              <div class="zalouvreslike">
+                <img id="drugacija" src="zaslike/vangogh/vangogh8.jpg" />
+              </div>
+            </div>
+            <div class="carousel-controls">
+              <label for="img-4" class="prev-slide">
+                <span>&lsaquo;</span>
+              </label>
+              <label for="img-1" class="next-slide">
+                <span>&rsaquo;</span>
+              </label>
+            </div>
+          </li>
+          <div class="carousel-dots">
+            <label for="img-1" class="carousel-dot" id="img-dot-1"></label>
+            <label for="img-2" class="carousel-dot" id="img-dot-2"></label>
+            <label for="img-3" class="carousel-dot" id="img-dot-3"></label>
+            <label for="img-4" class="carousel-dot" id="img-dot-4"></label>
+            <label for="img-5" class="carousel-dot" id="img-dot-5"></label>
+          </div>
+        </ul>
+      </div>
+      <br /><br />
+    </div>
+    <br />
+  </div>
 </template>
 
 
 <style scoped>
-body {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  color: black;
-}
 .boja {
   background-color: rgba(126, 124, 25, 1);
   width: 100%;
-  height: 280%;
+  height: auto;
   background-attachment: fixed;
   position: absolute;
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  color: black;
 }
 .naslov {
   font-size: 2.5vw;
@@ -156,30 +160,37 @@ body {
 }
 #prva {
   border: 7px solid black;
-  margin-left: 47%;
+  margin-right: 2%;
 }
 
-p {
+.p1 {
   text-align: left;
   margin-left: 7%;
   position: absolute;
-  top: 23%;
+  top: 33%;
   /*transform: translate(-50%, -50%);*/
   font-weight: bold;
   margin-right: 60%;
 }
-/*.prva-slika {
-  width: 100%;
-  height: auto;
-}*/
+
+.p2 {
+  margin-right: 15%;
+  display: inline;
+  /*transform: translate(-50%, -50%);*/
+  font-weight: bold;
+  text-align: right;
+}
+
 #druga {
   width: 40%;
   margin-left: 4%;
   border: 7px solid black;
+  margin-top: 25rem;
 }
 .druga-slika {
   padding-top: 6%;
   /*background-color: aqua;*/
+  /*display: inline;*/
 }
 .bala1 {
   height: 20px;
@@ -244,8 +255,12 @@ p {
 .for-carousel {
   background-color: rgba(200, 133, 42, 1);
   width: 50%;
-  height: 28%;
-  margin-left: 47%;
+  float: right;
+  /*height: 28%;
+  margin-left: 47%;*/
+  margin-bottom: 2%;
+  margin-right: 2%;
+  margin-top: 36px;
 }
 
 .zalouvreslike {
