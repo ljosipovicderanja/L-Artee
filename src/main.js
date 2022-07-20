@@ -10,6 +10,9 @@ import { library } from '@fortawesome/fontawesome-svg-core'
 import { faHouse } from '@fortawesome/free-solid-svg-icons'
 import { faPlus } from '@fortawesome/free-solid-svg-icons'
 import { faTrashCan } from '@fortawesome/free-solid-svg-icons'
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
+import { faClock } from '@fortawesome/free-solid-svg-icons'
+
 
 /* import font awesome icon component */
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
@@ -18,6 +21,9 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 library.add(faHouse)
 library.add(faPlus)
 library.add(faTrashCan)
+library.add(faEnvelope)
+library.add(faClock)
+
 
 /* add font awesome icon component */
 Vue.component('font-awesome-icon', FontAwesomeIcon)

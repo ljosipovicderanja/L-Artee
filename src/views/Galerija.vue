@@ -17,7 +17,7 @@
     </div>
 
     <div class="t1">
-      <p>Podijeli svoje dojmove</p>
+      <p style="font-size: 1.3vw">Podijeli svoje dojmove</p>
     </div>
     <!--
       <hr
@@ -135,6 +135,7 @@ body#p2 {
   background-color: rgba(133, 198, 93, 1);
   padding: 50px;
   font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-size: 1.1vw;
 }
 .zagaleriju {
   border-radius: 25px;
